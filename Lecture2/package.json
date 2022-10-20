@@ -1,0 +1,25 @@
+{
+  "name": "lecture2",
+  "version": "0.0.1",
+  "description": "Descrition for lecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "eslint '*/**/*.js'",
+    "fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vOrlovItomych/homework.git"
+  },
+  "author": "Nazar Z.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vOrlovItomych/homework/issues"
+  },
+  "homepage": "https://github.com/vOrlovItomych/homework#readme",
+  "dependencies": {
+    "eslint": "^8.25.0",
+    "ip": "^1.1.8"
+  }
+}
