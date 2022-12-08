@@ -1,0 +1,18 @@
+query UserById($id: ID!) {
+  user(id: $id) {
+    id
+    name
+    lastname
+    phone
+    password
+  }
+}
+
+{
+  "data": {
+    "user": {
+      "id": "10",
+      "name": "Laurin"
+    }
+  }
+}
