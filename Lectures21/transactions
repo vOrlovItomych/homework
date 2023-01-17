@@ -1,0 +1,5 @@
+SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+BEGIN;
+UPDATE users SET lastname = 'userUpdated' WHERE id = 1;
+INSERT INTO users (firstname, lastname) VALUES ('user2', 'user2');
+COMMIT;
